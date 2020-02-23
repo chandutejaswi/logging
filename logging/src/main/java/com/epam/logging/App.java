@@ -12,11 +12,11 @@ public class App
     	double principle,time,rate_of_interest;
     	Scanner sc=new Scanner(System.in);
     	LOGGER.info("Enter principle amount:");
-    	principle=sc.nextFloat();
+    	principle=sc.nextDouble();
     	LOGGER.info("Enter time period:");
-    	time=sc.nextFloat();
+    	time=sc.nextDouble();
     	LOGGER.info("Enter rate of interest:");
-    	rate_of_interest=sc.nextFloat();
+    	rate_of_interest=sc.nextDouble();
     	Interest obj=new Interest(principle,time,rate_of_interest);
     	int option;
         LOGGER.info("\n1.Simple Interest\n2.Compound Interest\n");
